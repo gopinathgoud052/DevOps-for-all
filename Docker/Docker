@@ -9,6 +9,7 @@ In simple words, you can understand as containerization is a concept or technolo
 Docker Life Cycle
 We can use the above Image as reference to understand the lifecycle of Docker.
 
+
 There are three important things,
 
 docker build -> builds docker images from Docker file
