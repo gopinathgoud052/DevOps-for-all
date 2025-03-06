@@ -1,0 +1,86 @@
+
+Basic Docker Commands
+
+>> docker --version
+Shows the Docker version installed on your system.
+>> docker pull <image>
+Pulls an image from Docker Hub (e.g., docker pull ubuntu).
+>> docker build -t <image_name>:<tag> <path>
+Builds a Docker image from a Docker file (e.g., docker build -t myapp:v1 .).
+>> docker run <image>
+Runs a container based on an image (e.g., docker run ubuntu).
+>> docker ps
+Lists running containers.
+>> docker ps -a
+Lists all containers, including stopped ones.
+>> docker exec -it <container_id> <command>
+Executes a command inside a running container (e.g., docker exec -it mycontainer bash).
+>> docker stop <container_id>
+Stops a running container.
+>> docker start <container_id>
+Starts a stopped container.
+>> docker restart <container_id>
+Restarts a running container.
+>> docker rm <container_id>
+Removes a stopped container.
+>> docker rmi <image_name>
+Removes a Docker image.
+
+2. Intermediate Docker Commands
+
+>> docker network ls
+Lists all Docker networks.
+>> docker network create <network_name>
+Creates a custom network.
+>> docker volume ls
+Lists all Docker volumes.
+>> docker volume create <volume_name>
+Creates a new Docker volume.
+>> docker logs <container_id>
+Shows the logs of a container.
+>> docker stats
+>> docker inspect <container_id/image_id>
+Provides detailed information about containers or images (in JSON format).
+
+3. Advanced Docker Commands
+
+docker-compose
+A tool to define and run multi-container applications. 
+few commands:
+
+>> docker-compose up: Starts the services defined in a docker-compose.yml file.
+>> docker-compose down: Stops and removes containers, networks, and volumes created by docker-compose up.
+>> docker-compose logs: Displays logs from containers defined in the docker-compose.yml.
+>> docker swarm init
+Initializes a Docker Swarm cluster.
+>> docker swarm join
+Joins a node to an existing Docker Swarm cluster.
+>> docker service create <options>
+Creates a service in Docker Swarm.
+>> docker stack deploy -c <docker-compose.yml> <stack_name>
+Deploys a stack (multi-service app) in a Docker Swarm.
+>> docker exec -u <user> -it <container_id> <command>
+Run a command as a specific user inside a container.
+>> docker save <image_name> -o <output_file.tar>
+
+4. Docker Volumes and Bind Mounts
+
+>> docker volume create <volume_name>
+Creates a new volume.
+>> docker run -v <volume_name>:/path/in/container
+Mounts a volume inside a container.
+>> docker run -v <host_path>:<container_path>
+Mounts a host directory to a container.
+
+5. Docker Image Management
+
+>> docker image ls
+Lists Docker images on your machine.
+>> docker image prune
+Removes unused images (dangling images).
+>> docker tag <image_id> <new_image_name>:<tag>
+Tags an image with a new name.
+>> docker push <image_name>
+
+
+
