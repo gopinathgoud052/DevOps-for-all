@@ -1,0 +1,30 @@
+What is Kubernetes, and what are its key components? 
+Answer: Kubernetes is an open-source container orchestration platform that 
+automates the deployment, scaling, and management of containerized 
+applications. It allows developers to focus on building applications while 
+handling the complexities of managing container lifecycles and infrastructure. 
+Key Components: 
+1. Control Plane: 
+ > API Server: The front-end for Kubernetes that processes RESTful 
+API requests. 
+ >etcd: A distributed key-value store that holds cluster state and 
+configuration. 
+> Controller Manager: Handles core control loops like node 
+controller, job controller, etc. 
+> Scheduler: Assigns pods to nodes based on resource requirements 
+and policies.
+2. Worker Nodes:
+> Kubelet: An agent that runs on nodes, ensures the desired state of
+the containers, and communicates with the API server.
+> Kube-proxy: Manages network routing and load balancing within
+the cluster.
+> Container Runtime: Executes the containers (e.g., Docker,
+containerd, CRI-O).
+3. Additional Components:
+> Pods: The smallest deployable units, typically containing one or
+more containers.
+> Services: Expose applications running in pods to other pods or
+external clients.
+> ConfigMaps/Secrets: Store configuration data and sensitive
+information, respectively.
+> Volumes: Manage storage for persistent or ephemeral use.
