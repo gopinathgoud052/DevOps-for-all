@@ -1,0 +1,66 @@
+Linux Interview Questions
+--------------------------------------------------------------------------------
+1.What is the difference between hard links and symbolic links?
+>>Hard links and symbolic (soft) links are both methods to create references to files in a file system, but they differ in how they work and their behavior.
+Hard Link:
+A hard link is a direct reference to the inode (a data structure on a filesystem that stores all the information about a file except its name and actual data) of a file.
+It essentially creates another name for an existing file, pointing to the same data on the disk
+Symbolic Link (Soft Link): A symbolic link is a special file that acts as a pointer or shortcut to another file or directory. It contains the path to the target file or directory.
+
+2.Explain the concept of the Linux kernel.
+>> The Linux kernel is a fundamental part of the Linux operating system, acting as the core interface between the computer's hardware and its processes. Here's a detailed explanation of the Linux kernel:
+Definition:
+The Linux kernel is the core component of the Linux operating system. It is responsible for managing the system's resources and hardware communication.
+
+It acts as an intermediary between the hardware and the software, ensuring that applications can interact with the hardware without needing to know the specifics of the hardware itself
+
+3.What are the different file system types in Linux?
+>>1) ext (Extended File System):
+2) ext2: 3) Xiafs: 4) ext3: 5) JFS (Journaled File System): 6) ReiserFS: 7) XFS: 8) SquashFS
+
+4. How do you find the PID of a running process?
+>> To find the PID (Process ID) of a running process, you can use the "ps" command on Linux or the Task Manager on Windows
+
+5. What is the purpose of the cron job?
+>>it is a Linux command used for scheduling tasks to be executed sometime in the future. This is normally used to schedule a job that is executed periodically
+
+6.How do you redirect output to a file?
+>>To redirect standard output to a file, instead of the screen, we need to use the > operator followed by the name of the file. If the file doesn't exist, a new one will be created, otherwise, the information will overwrite the existing file.
+
+7.What are the different levels of file permissions in Linux?
+>> The three levels of file permissions in Linux are read (\(r\)), write (\(w\)), and execute (\(x\)). These permissions control who can access files and directories, and how they can access them. 
+Read (r):
+File: Allows the user to view the contents of the file.
+Directory: Allows the user to list the files in the directory.
+Write (w):
+File: Allows the user to modify the contents of the file (edit or delete).
+Directory: Allows the user to add, delete, or rename files within the directory.
+Execute (x):
+File: Allows the user to run the file as a program or script.
+Directory: Allows the user to access files or subdirectories within the directory (i.e., navigate into the directory).
+
+8. Explain the concept of a shell.
+>> A shell is a special user program that provides an interface for the user to use operating system services. Shell accepts human-readable commands from users and converts them into something which the kernel can understand.
+9. How do you find the size of a directory?
+>> To find the size of a directory in Linux, you can use several commands, depending on the level of detail you need. The most common and effective command for this is du (disk usage).
+10. What is the difference between ls -l and ls -a?
+>> The -l option is used to display detailed information about the files and directories in the specified directory. The output is in a long listing format. 
+>> The -a option is used to display all files, including hidden files and directories.
+ 
+11. How do you create a new user in Linux?
+>> To create a new user in Linux, you can use the useradd command, which is the standard way to add a new user to the system.
+
+12. What is the purpose of the sudo command?
+>> The sudo command in Linux stands for "SuperUser Do" and is used to grant superuser (administrator) privileges to users for executing commands that would otherwise require root access.
+
+13.How do you check disk space usage?
+>> To check disk space usage on a Linux system, you can use a variety of commands depending on the level of detail you're seeking. The most commonly used commands are df and du
+
+14.Explain different file systems used in Linux (ext2, ext3, ext4, XFS, etc.).
+>> 
+
+15.How do you check disk space usage and free space?
+>>df,du
+
+16.What is an inode and its significance?
+>> 
