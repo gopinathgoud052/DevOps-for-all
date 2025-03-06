@@ -1,4 +1,4 @@
-What is Kubernetes, and what are its key components? 
+** What is Kubernetes, and what are its key components? 
 Answer: Kubernetes is an open-source container orchestration platform that 
 automates the deployment, scaling, and management of containerized 
 applications. It allows developers to focus on building applications while 
@@ -28,3 +28,9 @@ external clients.
 > ConfigMaps/Secrets: Store configuration data and sensitive
 information, respectively.
 > Volumes: Manage storage for persistent or ephemeral use.
+**  What is a Pod in Kubernetes? Why is it important? 
+Answer: A Pod is the smallest and simplest deployable unit in Kubernetes. It 
+represents a single instance of a running process in the cluster and 
+encapsulates one or more tightly coupled containers, along with shared storage 
+and networking.
+** 
