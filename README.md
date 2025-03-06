@@ -8,6 +8,7 @@ DevOps is a software development approach that emphasizes collaboration and comm
 ![image](https://github.com/user-attachments/assets/c3503c13-c309-4338-ad47-4acdbd34aac9)
 
 DevOps Life Cycle
+
 DevOps is a practice that enables a single team to handle the whole application lifecycle, including development, testing, release, deployment, operation, display, and planning. It is a mix of the terms “Dev” (for development) and “Ops” (for operations). We can speed up the delivery of applications and services by a business with the aid of DevOps. Amazon, Netflix, and other businesses have all effectively embraced DevOps to improve their customer experience.
 
 DevOps Lifecycle is the set of phases that includes DevOps for taking part in Development and Operation group duties for quicker software program delivery. DevOps follows positive techniques that consist of code, building, testing, releasing, deploying, operating, displaying, and planning. DevOps lifecycle follows a range of phases such as non-stop development, non-stop integration, non-stop testing, non-stop monitoring, and non-stop feedback. Each segment of the DevOps lifecycle is related to some equipment and applied sciences to obtain the process. Some of the frequently used tools are open source and are carried out primarily based on commercial enterprise requirements. DevOps lifecycle is effortless to manipulate and it helps satisfactory delivery. 
