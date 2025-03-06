@@ -1,3 +1,5 @@
+ GIT COMMANDS
+ ------------------------------------------------------------------------
  git init: Initializes a new Git repository in the current directory.
  git clone <url>: Clones an existing Git repository from a URL.
  git add <file>: Adds a file to the staging area.
