@@ -1,0 +1,66 @@
+Linux commands:\
+-------------------------------------------------------------------------------------------------
+
+File and Directory Management
+ls: List directory contents
+cd: Change directory
+mkdir: Create a directory
+rmdir: Remove an empty directory
+rm: Remove files
+cp: Copy files
+mv: Move or rename files/directories
+touch: Create an empty file
+cat: Display file contents
+head: Display first few lines of a file
+tail: Display last few lines of a file
+grep: Search for patterns in files
+find: Find files and directories
+locate: Quickly find files (requires updated database)
+System Information
+df: Display disk space usage
+du: Display disk space usage of files and directories
+free: Display memory usage
+top: Display system processes
+ps: Display process information
+kill: Terminate a process
+uptime: Display system uptime
+whoami: Display current user
+date: Display current date and time
+User Management
+useradd: Create a new user
+userdel: Delete a user
+passwd: Change password
+su: Switch user
+sudo: Execute commands as another user
+Networking
+ping: Test network connectivity
+ifconfig: Configure network interfaces
+netstat: Display network connections
+ssh: Secure Shell for remote login
+Linux Cheat Sheet 2: Advanced Commands
+File System Management
+mount: Mount file systems
+umount: Unmount file systems
+fsck: Check and repair file systems
+chown: Change file ownership
+chmod: Change file permissions
+Package Management
+apt-get: Install, update, and remove packages (Debian/Ubuntu)
+yum: Install, update, and remove packages (Red Hat/CentOS/Fedora)
+dnf: Install, update, and remove packages (Fedora)
+Scripting
+bash: Bourne Again SHell (default shell)
+sh: Bourne Shell
+sed: Stream Editor
+awk: Pattern scanning and text processing language
+Compression and Archiving
+tar: Create, extract, and manipulate archive files
+gzip: Compress and decompress files
+bzip2: Compress and decompress files (better compression than gzip)
+Searching and Text Processing
+grep: Search for patterns in files
+sed: Stream Editor
+awk: Pattern scanning and text processing language
+cut: Extract columns from data
+sort: Sort data
+uniq: Report or omit repeated lines
