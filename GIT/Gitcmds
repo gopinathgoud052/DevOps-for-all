@@ -1,0 +1,68 @@
+ git init: Initializes a new Git repository in the current directory.
+ git clone <url>: Clones an existing Git repository from a URL.
+ git add <file>: Adds a file to the staging area.
+ git commit-m "<message>": Commits changes to the repository with a message.
+ git commit --amend -m "new message":  Modify the last commit message
+ git status: Shows the current state of the working directory and staging area.
+ git diff: Shows the differences between the working directory and the staging area, or
+ between the staging area and the last commit.
+ git log: Shows the commit history of the repository.
+
+ 2. Branching and Merging
+ git branch: Lists all local branches.
+ git branch <branch_name>: Creates a new branch.
+ git checkout <branch_name>: Switches to a different branch.
+ git checkout-b <branch_name>: Creates a new branch and switches to it.
+ git merge <branch_name>: Merges the specified branch into the current branch.
+ git branch -d <branch_name>	Delete a local branch
+ git push origin --delete <branch_name>	Delete a remote branch
+
+ 3. Remote Repositories
+ git remote add origin <url>: Adds a remote repository named "origin" /// used to connect your local repository to the remote server. This
+ command allows you to create, view, and delete connections to other repositories.
+ git push origin <branch_name>: Pushes the current branch to the remote repository.
+ git pull origin <branch_name>: Pulls changes from the remote repository.
+ git remote -v	View the remote repositories linked to your local repo
+ git remote add origin <repo_url>  Add a remote repository
+ git fetch origin  Fetch latest changes from the remote repository
+
+ 4. Other Useful Commands
+ git rebase <branch_name> Reapply commits on top of another base branch
+
+
+ 5.Stashing (Save Work Temporarily)
+ git stash Save changes without committing // temporarily saves changes to the working directory.
+ git stash list	Show all stashed changes
+ git stash apply Reapply the most recent stash
+ git stash drop	Delete the most recent stash
+ git stash pop	Apply and remove the most recent stash(Restores the most recently stashed changes.)
+
+6.Undoing Changes
+ git reset <file> Unstage a file
+ git reset --soft HEAD~1   Undo the last commit (keep changes staged)
+ git reset --mixed HEAD~1  Undo the last commit (keep changes but unstaged)
+ git reset --hard HEAD~1  Undo the last commit and discard changes
+ git checkout -- <file>	Revert file to last committed version
+
+7.Git Tagging
+ git tag List all tags
+ git tag <tag_name>  Create a new tag
+ git tag -a <tag_name> -m "message"   Create an annotated tag
+ git push origin <tag_name>	Push a tag to the remote repository
+ git push origin --tags	Push all tags to the remote repository
+ git tag -d <tag_name>	Delete a local tag
+ git push origin --delete <tag_name>	Delete a remote tag
+
+8.Log & History
+ git log  View commit history
+ git log --oneline View commit history in one line
+ git log --graph --decorate --oneline	View commits in a graphical format
+
+9. 
+ git reflog --->   for You deleted a branch but need it back // Find the commit hash of the lost branch
+
+git commit --amend            
+git commit --amend -m"New message"  Sometimes while writing the commit message, we make a typing error. The following commands can be used to fix the issue
+git revert is used to record some new commits to reverse the effect of some earlier commits 
+
+history | grep git   --> searches for all commands containing git
