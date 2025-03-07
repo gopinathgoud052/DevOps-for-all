@@ -36,3 +36,7 @@ Features: Collects and stores metrics, powerful querying language (PromQL), and 
 7. GitLab
 Purpose: Source Code Management and CI/CD
 Features: Integrated DevOps platform, supports code versioning, CI/CD pipelines, and project management tools.
+
+
+🎉 Happy Learning & Keep Automating!
+
