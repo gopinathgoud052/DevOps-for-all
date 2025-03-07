@@ -24,11 +24,7 @@ EXPOSE 3000
 CMD ["node", "server.js"]
 --------------------------------------------
 
-Step 1: Build the Docker Image
-docker build -t my-app .
-Step 2: Run the Docker Container
-docker run -p 5000:5000 my-app
->>  -p 5000:5000: Maps the container's port to the host
+
 
 Common Dockerfile Commands && Description
 FROM	Defines the base image (e.g., FROM ubuntu:latest)
