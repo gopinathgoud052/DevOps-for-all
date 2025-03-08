@@ -111,8 +111,6 @@ Q: You want to monitor the performance of your Linux server over time. What tool
 
 Q: You are responsible for securing a Linux server. Outline the security measures and best practices you would implement to protect against potential threats.
 
-Ref for this questions: https://www.linkedin.com/posts/minakshi-chaudhari-7a0a26241_linux-devopscommunity-awsdevops-activity-7154113961519460352-YYcq?utm_source=share&utm_medium=member_desktop
-
 ## Kubernetes Questions:
 
  1.What are Kubernetes architecture components and explain them?
