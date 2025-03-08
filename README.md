@@ -39,21 +39,21 @@ Features: Integrated DevOps platform, supports code versioning, CI/CD pipelines,
 
 ---
 
-DevOps Q&A
+## DevOps Q&A
 
 DevOps Interview Questions for Juniors
 DevOps Interview Questions and Answers for Junior DevOps Engineers
 
-Disclaimer:
+## Disclaimer:
 
-📝 You are welcome to edit and add Questions/answers through Pull Request: read about contribution guidelines here
+## 📝 You are welcome to edit and add Questions/answers through Pull Request: read about contribution guidelines here
 
 These questions are for the Junior/beginner in the DevOps field
 These questions are not for specific companies/entities, they cover the most popular DevOps tools, and these tools may vary from one company to another based on the technology stack used by it .. so you need to check the job requirements for the position you are applying and focus on what is there.
 Included Tools:
  Docker, linux bash,kubernetes, git, jenkins Terraform, Ansible, and more coming ...
 
-Docker Questions:
+## Docker Questions:
  What’s the difference between container vs VM?
  
  What are Docker Image layers?
@@ -71,7 +71,8 @@ Docker Questions:
  How could you secure your Dockerfile?
  
  What are the Stages of DevSecOps?
-Linux Questions:
+
+## Linux Questions:
  
  What’s the difference between Reverse Proxy and Web Server?
  
@@ -101,7 +102,7 @@ Linux Questions:
  
  What’s the /dev/null directory?
 
-Linux Scenario Based Questions:
+## Linux Scenario Based Questions:
 
 Q: You notice a sudden spike in server CPU utilization. How would you troubleshoot and identify the root cause?
 
@@ -123,7 +124,7 @@ Q: You are responsible for securing a Linux server. Outline the security measure
 
 Ref for this questions: https://www.linkedin.com/posts/minakshi-chaudhari-7a0a26241_linux-devopscommunity-awsdevops-activity-7154113961519460352-YYcq?utm_source=share&utm_medium=member_desktop
 
-Kubernetes Questions:
+## Kubernetes Questions:
 
  What are Kubernetes architecture components and explain them?
  
