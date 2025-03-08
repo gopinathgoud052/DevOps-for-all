@@ -44,15 +44,6 @@ Features: Integrated DevOps platform, supports code versioning, CI/CD pipelines,
 DevOps Interview Questions for Juniors
 DevOps Interview Questions and Answers for Junior DevOps Engineers
 
-## Disclaimer:
-
-## 📝 You are welcome to edit and add Questions/answers through Pull Request: read about contribution guidelines here
-
-These questions are for the Junior/beginner in the DevOps field
-These questions are not for specific companies/entities, they cover the most popular DevOps tools, and these tools may vary from one company to another based on the technology stack used by it .. so you need to check the job requirements for the position you are applying and focus on what is there.
-Included Tools:
- Docker, linux bash,kubernetes, git, jenkins Terraform, Ansible, and more coming ...
-
 ## Docker Questions:
  1.What’s the difference between container vs VM?
  
