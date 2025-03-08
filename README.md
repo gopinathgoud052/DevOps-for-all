@@ -5,7 +5,7 @@ DevOps is a transformative culture and practice that unites software development
 ## DevOps Model Defined:-
 
 DevOps is a software development approach that emphasizes collaboration and communication between development (Dev) and operations (Ops) teams. It aims to shorten the software development lifecycle and improve the quality and reliability of software releases.
-![image](https://github.com/user-attachments/assets/c3503c13-c309-4338-ad47-4acdbd34aac9)
+![image](https://github.com/user-attachments/assets/81505082-73ea-425a-99fd-d0ef4606e343)
 
 ## DevOps Life Cycle
 
